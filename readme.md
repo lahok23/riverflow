@@ -23,6 +23,10 @@ RiverFlow是一個推廣展現嘻哈文化平台，提供豐富的文化介紹�
 1. 框架：Node.js + Express 負責 API 路由和邏輯處理。
 2. 資料庫：使用 MySQL 作為資料庫建構。
 3. 驗證與授權：透過 JWT 進行用戶身份驗證與授權。
+
+「專案展示」: https://lahok23.github.io/RiverFlow/
+
+
 # 資料夾結構 
 
 ```
