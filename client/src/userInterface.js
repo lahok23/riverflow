@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 
 import Footer from './components/footer'
 
@@ -46,47 +46,49 @@ import Graffiti from './pages/graffiti'
 
 export default function UserInterface() {
   return (
-    <div>
-      <Routes>
-        <Route index element={<Index />} />
-        <Route path='aboutUs' element={<AboutUs />} />
+   
+      <div>
+        <Routes>
+          <Route index element={<Index />} />
+          <Route path='/aboutUs' element={<AboutUs />} />
 
-        <Route path='DJ' element={<DJ />} />
-        <Route path='Rap' element={<Rap />} />
-        <Route path='Graffiti' element={<Graffiti />} />
-        <Route path='Skate' element={<Skate />} />
-        <Route path='Dance' element={<Dance />} />
+          <Route path='/DJ' element={<DJ />} />
+          <Route path='/Rap' element={<Rap />} />
+          <Route path='/Graffiti' element={<Graffiti />} />
+          <Route path='/Skate' element={<Skate />} />
+          <Route path='/Dance' element={<Dance />} />
 
-        <Route path='News/Index' element={<News />} />
-        <Route path='News/Article/:id' element={<NewsArticle />} />
+          <Route path='/News/Index' element={<News />} />
+          <Route path='/News/Article/:id' element={<NewsArticle />} />
 
-        <Route path='Login/Index' element={<Login />} />
-        <Route path='Login/Verify/reset-password/:token' element={<LoginVerify />} />
-        <Route path='Login/Register' element={<LoginRegister />} />
-        <Route path='Login/Password' element={<LoginPassword />} />
+          <Route path='/Login/Index' element={<Login />} />
+          <Route path='/Login/Verify/reset-password/:token' element={<LoginVerify />} />
+          <Route path='/Login/Register' element={<LoginRegister />} />
+          <Route path='/Login/Password' element={<LoginPassword />} />
 
-        <Route path='Member/Index' element={<MemberIndex />} />
-        <Route path='Member/Edit' element={<MemberEdit />} />
-        <Route path='Member/OrderList' element={<MemberOrderList />} />
-        <Route path='/Member/Order/:id' element={<MemberOrder />} />
-        <Route path='Member/Tickets' element={<MemberTickets />} />
-        <Route path='Member/Collection' element={<MemberCollection />} />
+          <Route path='/Member/Index' element={<MemberIndex />} />
+          <Route path='/Member/Edit' element={<MemberEdit />} />
+          <Route path='/Member/OrderList' element={<MemberOrderList />} />
+          <Route path='/Member/Order/:id' element={<MemberOrder />} />
+          <Route path='/Member/Tickets' element={<MemberTickets />} />
+          <Route path='/Member/Collection' element={<MemberCollection />} />
 
-        <Route path='Event/Order' element={<EventOrder />} />
-        <Route path='Event/Index' element={<EventIndex />} />
-        <Route path='Event/Detail/:id' element={<EventDetail />} />
-        <Route path='Event/ConfirmNoseat/:id' element={<EventConfirmNoseat />} />
-        <Route path='Event/ConfirmSeat/:id' element={<EventConfirmSeat />} />
-        <Route path='Event/ConfirmInfo' element={<EventConfirmInfo />} />
+          <Route path='/Event/Order' element={<EventOrder />} />
+          <Route path='/Event/Index' element={<EventIndex />} />
+          <Route path='/Event/Detail/:id' element={<EventDetail />} />
+          <Route path='/Event/ConfirmNoseat/:id' element={<EventConfirmNoseat />} />
+          <Route path='/Event/ConfirmSeat/:id' element={<EventConfirmSeat />} />
+          <Route path='/Event/ConfirmInfo' element={<EventConfirmInfo />} />
 
-        <Route path='Product/All' element={<ProductAll />} />
-        <Route path='Product/Detail/:productId' element={<ProductDetail />} />
+          <Route path='/Product/All' element={<ProductAll />} />
+          <Route path='/Product/Detail/:productId' element={<ProductDetail />} />
 
-        <Route path='Order/Cart' element={<Cart />} />
-        <Route path='Order/CartCheckout' element={<CartCheckout />} />
-        <Route path='Order/CartConfirmation' element={<CartConfirmation />} />
-        <Route path='Order/PaymentSuccess' element={<PaymentSuccess />} />
-      </Routes>
-    </div>
+          <Route path='/Order/Cart' element={<Cart />} />
+          <Route path='/Order/CartCheckout' element={<CartCheckout />} />
+          <Route path='/Order/CartConfirmation' element={<CartConfirmation />} />
+          <Route path='/Order/PaymentSuccess' element={<PaymentSuccess />} />
+        </Routes>
+      </div>
+ 
   )
 }

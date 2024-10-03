@@ -54,19 +54,19 @@ export default function Header() {
               <div id='dropdownMenu' class=''>
                 <ul class='cultureList flex'>
                   <li>
-                    <a href='/DJ' class='cultureOpt'>
+                    <Link to='/DJ' class='cultureOpt'>
                       DJ
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='/Dance' class='cultureOpt'>
+                    <Link to='/Dance' class='cultureOpt'>
                       街舞
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='/RAP' class='cultureOpt'>
+                    <Link to='/RAP' class='cultureOpt'>
                       饒舌
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link to='/Graffiti' class='cultureOpt'>
@@ -122,36 +122,36 @@ export default function Header() {
             <div id='dropdownMenu'>
               <ul class='cultureList cultureList_mob flex'>
                 <li>
-                  <a href='#' class='cultureOpt'>
+                  <Link to='#' class='cultureOpt'>
                     DJ
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='#' class='cultureOpt'>
+                  <Link to='#' class='cultureOpt'>
                     街舞
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='#' class='cultureOpt'>
+                  <Link to='#' class='cultureOpt'>
                     饒舌
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='#' class='cultureOpt'>
+                  <Link to='#' class='cultureOpt'>
                     塗鴉
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href='#' class='cultureOpt'>
+                  <Link to='#' class='cultureOpt'>
                     滑板
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </li>
           <li>
-            <a href='#'>嘻哈專欄</a>
-          </li>
+            <Link to='#'>嘻哈專欄</Link>
+        </li>
           <li>
             <NavLink to='/Event/Index'>into flow</NavLink>
           </li>
