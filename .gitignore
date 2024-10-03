@@ -1,0 +1,34 @@
+# MacOS 資料夾資訊檔案
+*.DS_Store
+
+# npm 模組資料夾
+node_modules
+
+# 環境變數檔案
+*.env
+
+# 其他檔案
+*.xlsx
+
+# scss 檔案和映射檔案
+*.scss
+*.css.map
+
+# sql 檔案
+*.sql
+
+# 編譯輸出資料夾
+build/
+dist/
+
+# 日誌檔案
+*.log
+log/
+
+# 測試覆蓋率報告
+coverage/
+
+# 其他系統或暫存檔案
+*.zip
+*.tar.gz
+*.tmp
