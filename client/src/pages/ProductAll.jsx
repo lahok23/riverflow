@@ -454,7 +454,7 @@ const ProductAll = () => {
     fetchUserData() // 調用函數獲取資料
   }, []) // 空依賴數組，意即僅在組件加載時運行
 
-  // 獲取收藏的商品 ID
+  // // 獲取收藏的商品 ID
   // useEffect(() => {
   //   const fetchFavoritesData = async () => {
   //     if (userData) {
@@ -503,7 +503,7 @@ const ProductAll = () => {
                 setFavoriteProducts={setFavoriteProducts} // 傳遞狀態和函數給商品列表
               />
             </div>
-           
+            <Footer /> {/* 頁尾 */}
           </section>
         </>
       )}
