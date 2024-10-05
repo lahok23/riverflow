@@ -455,24 +455,24 @@ const ProductAll = () => {
   }, []) // 空依賴數組，意即僅在組件加載時運行
 
   // 獲取收藏的商品 ID
-  useEffect(() => {
-    const fetchFavoritesData = async () => {
-      if (userData) {
-        // 只有在用戶登入後才獲取收藏資料
-        try {
-          const response = await axios.get('http://localhost:3000/riverflow/user/favorites', {
-            withCredentials: true
-          })
-          setFavoriteProducts(response.data) // 設置收藏商品資料
-        } catch (error) {
-          console.error('Error fetching favorites data:', error)
-          setError('Failed to fetch favorites data.')
-        }
-      }
-    }
+  // useEffect(() => {
+  //   const fetchFavoritesData = async () => {
+  //     if (userData) {
+  //       // 只有在用戶登入後才獲取收藏資料
+  //       try {
+  //         const response = await axios.get('http://localhost:3000/riverflow/user/favorites', {
+  //           withCredentials: true
+  //         })
+  //         setFavoriteProducts(response.data) // 設置收藏商品資料
+  //       } catch (error) {
+  //         console.error('Error fetching favorites data:', error)
+  //         setError('Failed to fetch favorites data.')
+  //       }
+  //     }
+  //   }
 
-    fetchFavoritesData() // 調用函數獲取收藏商品資料
-  }, [userData]) // 當 userData 改變時重新執行
+  //   fetchFavoritesData() // 調用函數獲取收藏商品資料
+  // }, [userData]) // 當 userData 改變時重新執行
 
   return (
     <>
@@ -503,7 +503,7 @@ const ProductAll = () => {
                 setFavoriteProducts={setFavoriteProducts} // 傳遞狀態和函數給商品列表
               />
             </div>
-            <Footer /> {/* 頁尾 */}
+           
           </section>
         </>
       )}

@@ -155,7 +155,7 @@ class Index extends Component {
               <div class="circle2"> </div>
             </div>
 
-            <a class="scollbtn" href="#introSection">
+            <a class="scollbtn" >
               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
                 <path
                   d="M9.74237 13.5284C10.0859 13.1775 10.0859 12.6087 9.74237 12.2578C9.39887 11.907 8.84193 11.907 8.49843 12.2578L5.8952 14.9167V0.898406C5.8952 0.40223 5.50139 2.16885e-08 5.01561 0C4.52982 -2.16885e-08 4.13601 0.40223 4.13601 0.898406L4.13601 14.9486L1.50157 12.2578C1.15806 11.907 0.601133 11.907 0.257629 12.2578C-0.0858762 12.6087 -0.0858762 13.1775 0.257629 13.5284L4.37803 17.7369C4.72153 18.0877 5.27847 18.0877 5.62197 17.7369L9.74237 13.5284Z"
@@ -662,7 +662,7 @@ class Index extends Component {
             </a>
           </div>
 
-          <a href="#introSection" id="ontop">
+          <a href="" id="ontop">
             <img class="gotop" src={require('../assets/images/gotop.png')} alt="" />
             <img class="goup" src={require('../assets/images/goup.png')} alt="" />
           </a>
