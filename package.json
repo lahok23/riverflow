@@ -6,20 +6,15 @@
   "scripts": {
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:client": "cross-env PORT=3001 npm --prefix client start",
-    "start:server": "npm --prefix server start",
-    "build": "npm run build --prefix client",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start:server": "npm --prefix server start"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "cross-env": "^7.0.3",
-    "gh-pages": "^6.1.1"
+    "cross-env": "^7.0.3"
   },
   "dependencies": {
-    "-": "^0.0.1",
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "axios": "^1.7.3",
@@ -34,7 +29,6 @@
     "parallax-js": "^3.1.0",
     "react-router-dom": "^5.3.4",
     "react-select": "^5.8.0",
-    "save": "^2.9.0",
     "scrollmagic": "^2.0.8",
     "simple-parallax-js": "^6.0.1",
     "sweetalert2": "^11.12.4",
