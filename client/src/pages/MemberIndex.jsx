@@ -60,25 +60,12 @@ class MemberIndex extends Component {
             Users: { ...this.state.Users, birth: '' },
             isLoading: false,
         });
-        window.location.href = '/login/Index';
+   
     }
 };
 
 
-    Logout = async () => {
-        try {
-            await axios.get('http://localhost:3000/riverflow/user/logout', {
-                withCredentials: true // Cookie
-            });
-            // 清除Token
-            localStorage.removeItem('token');
-            
-            window.location.href = '/login/Index';
-        } catch (error) {
-            console.error("Error logging out:", error);
-            
-        }
-    };
+ 
 
 
 
