@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RiverFlow/static/css/main.3012a1bc.css",
-    "main.js": "/RiverFlow/static/js/main.d7c15c95.js",
+    "main.css": "/RiverFlow/static/css/main.ed5180f5.css",
+    "main.js": "/RiverFlow/static/js/main.78b505e8.js",
     "static/media/Postcard from Bulgaria _ Friends On Foreign Soil.mov": "/RiverFlow/static/media/Postcard from Bulgaria _ Friends On Foreign Soil.adca02d5077f7e8f1703.mov",
     "static/media/introSection_bg.png": "/RiverFlow/static/media/introSection_bg.b6ffe34bec7413b52104.png",
     "static/media/skateimg3.png": "/RiverFlow/static/media/skateimg3.bb29c0170fe09a382c69.png",
@@ -100,11 +100,11 @@
     "static/media/hippop.png": "/RiverFlow/static/media/hippop.ca3158163de90d928e36.png",
     "static/media/decor01.png": "/RiverFlow/static/media/decor01.465bd6e75c523680c328.png",
     "index.html": "/RiverFlow/index.html",
-    "main.3012a1bc.css.map": "/RiverFlow/static/css/main.3012a1bc.css.map",
-    "main.d7c15c95.js.map": "/RiverFlow/static/js/main.d7c15c95.js.map"
+    "main.ed5180f5.css.map": "/RiverFlow/static/css/main.ed5180f5.css.map",
+    "main.78b505e8.js.map": "/RiverFlow/static/js/main.78b505e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3012a1bc.css",
-    "static/js/main.d7c15c95.js"
+    "static/css/main.ed5180f5.css",
+    "static/js/main.78b505e8.js"
   ]
 }
